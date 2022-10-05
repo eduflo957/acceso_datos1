@@ -8,6 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Apuntes" />
+            <option value="$PROJECT_DIR$/Apuntes/Collections" />
+            <option value="$PROJECT_DIR$/Apuntes/Maps" />
           </set>
         </option>
       </GradleProjectSettings>

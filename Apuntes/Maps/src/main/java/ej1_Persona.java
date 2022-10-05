@@ -1,17 +1,17 @@
 //Utilizado en ej1_ordenarNombre
 
-public class P1_Persona implements Comparable<P1_Persona>{
+public class ej1_Persona implements Comparable<ej1_Persona>{
 
     int edad = 0;
     String nombre = " ";
 
-    public P1_Persona(int edad, String nombre) {
+    public ej1_Persona(int edad, String nombre) {
         this.edad = edad;
         this.nombre = nombre;
     }
 
     @Override
-    public int compareTo(P1_Persona o) {
+    public int compareTo(ej1_Persona o) {
         return nombre.compareTo(o.nombre);
     }
 

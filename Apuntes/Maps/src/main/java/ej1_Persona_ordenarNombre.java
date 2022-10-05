@@ -6,13 +6,13 @@ import java.util.Collections;
  * ver si un objeto está dentro del array
  */
 
-public class ej1_ordenarNombre {
+public class ej1_Persona_ordenarNombre {
     public static void main(String[] args) {
-        ArrayList<P1_Persona> arrayPersonas = new ArrayList<>();
+        ArrayList<ej1_Persona> arrayPersonas = new ArrayList<>();
 
-        arrayPersonas.add(new P1_Persona(10, "pepe"));
-        arrayPersonas.add(new P1_Persona(12, "edu"));
-        arrayPersonas.add(new P1_Persona(14, "anto"));
+        arrayPersonas.add(new ej1_Persona(10, "pepe"));
+        arrayPersonas.add(new ej1_Persona(12, "edu"));
+        arrayPersonas.add(new ej1_Persona(14, "anto"));
 
         System.out.println("Desordenado: " + arrayPersonas);
 
