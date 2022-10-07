@@ -4,4 +4,6 @@ include 'Apuntes:Collections'
 findProject(':Apuntes:Collections')?.name = 'Collections'
 include 'Apuntes:Maps'
 findProject(':Apuntes:Maps')?.name = 'Maps'
+include 'Apuntes:Ficheros'
+findProject(':Apuntes:Ficheros')?.name = 'Ficheros'
 
