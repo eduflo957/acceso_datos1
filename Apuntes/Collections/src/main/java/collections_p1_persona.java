@@ -1,4 +1,4 @@
-public class collections_p1_persona {
+/*public class collections_p1_persona {
 package colecciones_paquete1;
 
 import java.util.Objects;
@@ -16,7 +16,7 @@ import java.util.Objects;
             return "colecciones_p1_practica1_persona [nombre=" + nombre + ", edad=" + edad + "]";
         }
 
-        /*ESTO ES HACIENDO HASHCODE DESDE SOURCE
+        //ESTO ES HACIENDO HASHCODE DESDE SOURCE
         @Override
         public int hashCode() {
             return Objects.hash(edad, nombre);
@@ -33,7 +33,7 @@ import java.util.Objects;
             colecciones_p1_practica1_persona other = (colecciones_p1_practica1_persona) obj;
             return edad == other.edad && Objects.equals(nombre, other.nombre);
         }
-        */
+
         //El profe lo ha hecho así
         public boolean equals (Object obj) {
             colecciones_p1_practica1_persona p = (colecciones_p1_practica1_persona)obj; //hago el casting de obj para que pase a clase persona
@@ -60,3 +60,4 @@ import java.util.Objects;
 
 
 }
+*/

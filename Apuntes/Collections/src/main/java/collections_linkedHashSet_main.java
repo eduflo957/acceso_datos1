@@ -1,10 +1,9 @@
-import java.util.LinkedHashSet;
+/*import java.util.LinkedHashSet;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;
 
 public class collections_linkedHashSet_main {
-
 
     public class colecciones_p1_linkedHashSet_main {
         public static void main(String[] args) {
@@ -33,3 +32,4 @@ public class collections_linkedHashSet_main {
 
 
 }
+*/

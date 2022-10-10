@@ -1,15 +1,10 @@
-public class collections_p1_main {
+/*public class collections_p1_main {
 /**
  *
- */
+
 package colecciones_paquete1;
 
 import java.util.HashSet;
-
-    /**
-     * @author AlumnoM
-     *
-     */
 
 
     public class colecciones_p1_practica1_main {
@@ -37,3 +32,4 @@ import java.util.HashSet;
 
 
 }
+*/
