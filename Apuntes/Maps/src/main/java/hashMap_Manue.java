@@ -10,6 +10,8 @@ public class hashMap_Manue {
         hm.put(91, new Persona("Maricarmen"));
         for (Entry<Integer, Persona> entry : hm.entrySet()) {
             System.out.println(entry);
+            //para recorrer la hashMap devolviendo solo valores.
+            System.out.println(entry.getValue());
         }
         for (Entry<Integer, Persona> entry : hm.entrySet()) {
             Integer key = entry.getKey();
