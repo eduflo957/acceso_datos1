@@ -42,8 +42,7 @@ public class hashMap_casa {
         int max = 0; // El número máximo de ocurrencias
         Character ch1 = null; // Graba el personaje con más ocurrencias
         Set<Character> set = new HashSet<Character>(); // Crear un objeto Set
-        set = map.keySet(); // El mapa se convierte en un objeto Set
-        Iterator<Character> it = set.iterator(); // Obtener el iterador del objeto Set
+        Iterator<Character> it = map.keySet().iterator(); // Obtener el iterador del objeto Set
         while (it.hasNext()) {
             Character ch = (Character) it.next(); // Obtener elementos
             Integer pos = map.get(ch).intValue(); // Buscar valor por clave

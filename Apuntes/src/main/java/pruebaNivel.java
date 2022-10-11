@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.Scanner;
 
 public class pruebaNivel {
@@ -49,4 +49,4 @@ import java.util.Scanner;
     }
 
 
-}
+}*/

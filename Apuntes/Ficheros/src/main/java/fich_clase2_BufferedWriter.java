@@ -19,6 +19,9 @@ public class fich_clase2_BufferedWriter {
 
         BufferedReader bR = new BufferedReader(new FileReader(f));
 
+        //Esto es para imprimir con acentos.
+        BufferedReader bRacentos = new BufferedReader(new InputStreamReader(new FileInputStream(f),"ISO-8859-1"));
+
         String linea = "";
         linea = bR.readLine();
         while (linea != null) {
