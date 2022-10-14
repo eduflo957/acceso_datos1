@@ -1,7 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import java.util.TreeSet;
 
 public class pruebaMaps {
 /*Tenemos que utilizar hashMap
@@ -42,8 +42,14 @@ public class pruebaMaps {
         System.out.println("parte 3");
         pruebaMaps.consultarVuelo("FX106", vuelos);
 
+        //TODO Revisar, no tiene mucho sentido, revisar.
+        Integer vueloConsultado= pruebaMaps.consultarVuelo("FX105", vuelos);
+        if (pruebaMaps.consultarVuelo("FX105", vuelos) != null) {
+            System.out.println("FX105 - "+vueloConsultado);
+        }
+
         System.out.println("parte 4");
-        pruebaMaps.imprimirVuelos(vuelos);
+        pruebaMaps.listarVuelos(vuelos,false);
     }
 
     public static void anyadirVuelo(String vueloNew, Integer tiempoNew, HashMap<String, Integer> vuelos) {
@@ -53,15 +59,25 @@ public class pruebaMaps {
             vuelos.put(vueloNew, tiempoNew);
     }
 
-    public static void consultarVuelo(String vueloNew, HashMap<String, Integer> vuelos) {
-        if (!vuelos.containsKey(vueloNew))
+    //TODO el consultar vuelo es correcto, pero hay que aprender a verlo por pantalla
+    public static Integer consultarVuelo(String vueloNew, HashMap<String, Integer> vuelos) {
+        if (!vuelos.containsKey(vueloNew)) {
             System.out.println("Error, vuelo no existe");
+            return null;
+        }
         else
-            System.out.println(vueloNew + " - " + vuelos.get(vueloNew) + " minutos");
+            return vuelos.get(vueloNew);
     }
 
-    public static void imprimirVuelos(HashMap<String, Integer> vuelos) {
-        System.out.println(vuelos);
+    //TODO esto no me salió, tengo que verlo.
+    public static void listarVuelos (HashMap <String,Integer> vuelos,boolean opcion) {
+        ArrayList <String> claves = new ArrayList(vuelos.keySet());
+        if(opcion) {
+            Collections.sort(claves);
+        }
+        for (String clave:claves) {
+            System.out.println(clave+" - "+vuelos.get(clave)+"mins");
+        }
     }
 
 }
