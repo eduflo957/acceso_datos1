@@ -1,27 +1,20 @@
-/*
-la clase objectoutputStream está definida por java
-con la clase write streamHeader, cuando llamo a object,
-me escribe la cabecera,
-pero si el fichero existe,
-Si el fichero NO existe, llamaría a mi object,
-Pero si existe, llamaré a mi clase para que imprima sin cabecera
-*/
-
 import java.io.*;
 
-public class fich_clase6_ej1 {
+public class fich_clase7_Fichero {
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        File f = new File("C:\\Users\\AlumnoM\\Desktop\\doc_objUs_ej1.bin");
+        File f = new File("C:\\Users\\AlumnoM\\Desktop\\doc_objUs_clase7.bin");
 
         ObjectOutputStream fO = null;
 
         if (f.exists())
-            fO = new fich_clase6_ej1_profe(new FileOutputStream(f,true));
+            fO = new fich_clase6_ej1_profe(new FileOutputStream(f, true));
         else
             fO = new ObjectOutputStream(new FileOutputStream(f));
 
-        fO.writeObject("Primero");
-        fO.writeObject("Segundo");
+        fich_clase7_Persona p1 = new fich_clase7_Persona ("PEPE", 15);
+
+        fO.writeObject(p1);
+        fO.writeObject(new fich_clase7_Persona("Eva",19));
 
         fO.close();
 
