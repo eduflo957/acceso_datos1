@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/hashMap_casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase8_randomFile_ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase8_randomFile_ej1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FfSyw3tvG6PI7MaMDFh2jkqGz3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
