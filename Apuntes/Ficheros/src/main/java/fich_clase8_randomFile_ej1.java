@@ -11,9 +11,9 @@ lo leo y luego voy a la posición 3*/
 public class fich_clase8_randomFile_ej1 {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        //File f = new File("C:\\Users\\AlumnoM\\Desktop\\fich_clase8_fichRandom_ej1.bin");
+        File f = new File("C:\\Users\\AlumnoM\\Desktop\\fich_clase8_fichRandom_ej1.bin");
         //casa
-        File f = new File("C:\\Users\\Edu guapo\\Desktop\\fich_clase8_fichRandom_ej1.bin");
+        //File f = new File("C:\\Users\\Edu guapo\\Desktop\\fich_clase8_fichRandom_ej1.bin");
 
         RandomAccessFile fA = new RandomAccessFile(f, "rw");
         String palabra = "aaaaaaaaaaaaaaa";
@@ -33,10 +33,12 @@ public class fich_clase8_randomFile_ej1 {
 
         try {
             do {
-                for (int i = 0; i < arrayPalabra.length - 1; i++) {
+                for (int i = 0; i < arrayPalabra.length; i++) {
                     System.out.print(fB.readChar());
                 }
-                System.out.print("\n" + fB.readInt() + "\n" + fB.readChar());
+                System.out.print(fB.readInt());
+                System.out.print(fB.readChar());
+                System.out.println("\n");
             } while (true);
         } catch (Exception e) {
             System.out.println(e);
