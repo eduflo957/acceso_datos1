@@ -16,11 +16,15 @@ public class fich_clase8_randomFile_ej1 {
         //File f = new File("C:\\Users\\Edu guapo\\Desktop\\fich_clase8_fichRandom_ej1.bin");
 
         RandomAccessFile fA = new RandomAccessFile(f, "rw");
-        String palabra = "aaaaaaaaaaaaaaa";
-        Integer TAM = palabra.length();
+        String palabra = "aaa";
+        int TAM = 5;
         char[] arrayPalabra = palabra.toCharArray();
         for (int i = 0; i < TAM; i++) {
-            fA.writeChar(arrayPalabra[i]);
+            if (i < palabra.length()) {
+                fA.writeChar(arrayPalabra[i]);
+            } else {
+                fA.writeChar('/');
+            }
         }
         fA.writeInt(1);
         fA.writeChar('c');
@@ -45,4 +49,3 @@ public class fich_clase8_randomFile_ej1 {
         }
     }
 }
-
