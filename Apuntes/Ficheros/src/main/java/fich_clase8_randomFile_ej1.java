@@ -23,7 +23,7 @@ public class fich_clase8_randomFile_ej1 {
             if (i < palabra.length()) {
                 fA.writeChar(arrayPalabra[i]);
             } else {
-                fA.writeChar('/');
+                fA.writeChar(' ');
             }
         }
         fA.writeInt(1);
@@ -36,10 +36,10 @@ public class fich_clase8_randomFile_ej1 {
         RandomAccessFile fB = new RandomAccessFile(f, "r");
 
         try {
+            for (int i = 0; i < arrayPalabra.length; i++) {
+                System.out.print(fB.readChar());
+            }
             do {
-                for (int i = 0; i < arrayPalabra.length; i++) {
-                    System.out.print(fB.readChar());
-                }
                 System.out.print(fB.readInt());
                 System.out.print(fB.readChar());
                 System.out.println("\n");

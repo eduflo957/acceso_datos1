@@ -6,4 +6,6 @@ include 'Apuntes:Maps'
 findProject(':Apuntes:Maps')?.name = 'Maps'
 include 'Apuntes:Ficheros'
 findProject(':Apuntes:Ficheros')?.name = 'Ficheros'
+include 'Apuntes:apuntesXML'
+findProject(':Apuntes:apuntesXML')?.name = 'apuntesXML'
 
