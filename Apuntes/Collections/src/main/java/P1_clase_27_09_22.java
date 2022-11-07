@@ -22,7 +22,6 @@ Al final hay que decir "animales repetidos = los que haya"
 Podemos utilizar ArrayList, HashSet,
 */
 
-    public class practica1_clase_27_09_22_main {
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
 
@@ -48,6 +47,3 @@ Podemos utilizar ArrayList, HashSet,
         }
     }
 
-
-
-}

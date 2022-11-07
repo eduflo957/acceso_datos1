@@ -1,3 +1,5 @@
+package org.example;
+
 import org.w3c.dom.*;
 
 //Tener cuidado y no importar la de element, porque da error.
@@ -26,9 +28,12 @@ public class xml_clase1 {
 
         DOMImplementation imp = dB.getDOMImplementation();
 
+        //La raíz se crea aquí
         Document doc = imp.createDocument(null,"Empleados", null);
         doc.setXmlVersion("1.0");
-        //En eclipse no hace falta los casting element y node
+
+
+        ////////////////////////////////EMPLEADO1////////////////////////
 
         raiz = doc.createElement("empleado");
         doc.getDocumentElement().appendChild((Node) raiz);
@@ -58,6 +63,38 @@ public class xml_clase1 {
         text=doc.createTextNode("150");
         raiz.appendChild(elem);
         elem.appendChild(text);
+
+        ////////////////////////////////EMPLEADO2////////////////////////
+        raiz = doc.createElement("empleado");
+        doc.getDocumentElement().appendChild(raiz);
+
+        elem = doc.createElement("id");
+        text=doc.createTextNode("2");
+        raiz.appendChild(elem);
+        elem.appendChild(text);
+
+        elem = doc.createElement("apellidos");
+        raiz.appendChild(elem);
+        attr=doc.createAttribute("orden");
+        attr.setValue("segundo");
+        elem.setAttributeNode(attr);
+
+        elemSub=doc.createElement("apellido1");
+        text=doc.createTextNode("Flores");
+        elem.appendChild(elemSub);
+        elemSub.appendChild(text);
+
+        elemSub=doc.createElement("apellido2");
+        text=doc.createTextNode("López");
+        elem.appendChild(elemSub);
+        elemSub.appendChild(text);
+
+        elem=doc.createElement("dep");
+        text=doc.createTextNode("300");
+        raiz.appendChild(elem);
+        elem.appendChild(text);
+
+
 
         Source source = new DOMSource(doc);
         Result result = new StreamResult(f);
