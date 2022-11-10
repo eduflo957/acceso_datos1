@@ -9,9 +9,13 @@ Pero si existe, llamaré a mi clase para que imprima sin cabecera
 
 import java.io.*;
 
+//TODO para escirbir/leer un fichero binario, va junto al doc: fich_clase6_ej1_profe
 public class fich_clase6_ej1 {
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        File f = new File("C:\\Users\\AlumnoM\\Desktop\\doc_objUs_ej1.bin");
+        //Clase
+        File f = new File("C:\\Users\\AlumnoM\\Desktop\\fich_clase6_ej1.bin");
+        //Casa
+        //File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\fich_clase6_ej1.bin");
 
         ObjectOutputStream fO = null;
 

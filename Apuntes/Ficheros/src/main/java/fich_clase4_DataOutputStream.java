@@ -4,7 +4,10 @@ import java.io.*;
 //writeInt
 public class fich_clase4_DataOutputStream {
     public static void main(String[] args) throws IOException {
-        File f = new File("C:\\Users\\AlumnoM\\Desktop\\ficheroPruebaAccesoDatos.bin");
+        //Clase
+        //File f = new File("C:\\Users\\AlumnoM\\Desktop\\ficheroPruebaAccesoDatos.bin");
+        //Casa
+        File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt");
         DataOutputStream dO = new DataOutputStream(new FileOutputStream(f, false));
 
         dO.writeUTF("Hola");

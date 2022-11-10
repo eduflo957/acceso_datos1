@@ -7,9 +7,12 @@ import java.io.IOException;
 public class fich_clase1_FileWriter {
     public static void main(String[] args) throws IOException {
         //Creo un fichero y lo pongo en la ruta
-        //Este lee caracter por caracter
+        //TODO Este lee caracter por caracter
         //File (String directorio, String nombre_fichero o nombre_directorio) - Normal
-        File f1 = new File("C:\\Users\\AlumnoM\\Desktop\\AD_fich_prueba1.txt");
+        //Clase
+        //File f1 = new File("C:\\Users\\AlumnoM\\Desktop\\AD_fich_prueba1.txt");
+        //Casa
+        File f1 = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\AD_fich_prueba1.txt");
         //System.out.println((f1.getName())); //te da el nombre del fichero
         //File (File directorio, String nombre_fichero o nombre_directorio) - revisa porque es objeto
         //File f2 = new File ("C:\\Users\\AlumnoM\\Desktop","fichero.txt");
@@ -20,7 +23,7 @@ public class fich_clase1_FileWriter {
         //Método write (char[] arr)
 
         FileWriter fw1 = new FileWriter(f1, false);
-        //MEJOR PONER SIEMPRE TRUE/FALSE, para evitar errores
+        //TODO MEJOR PONER SIEMPRE TRUE/FALSE, para evitar errores
         //Modo machaque:
         //FileWriter fw1 = new FileWriter(f1,false);
         //Modo respetar el fichero:
@@ -33,7 +36,7 @@ public class fich_clase1_FileWriter {
         fw1.close();
 
         //Un fichero se lee así
-        FileReader fr1 = new FileReader("C:\\Users\\AlumnoM\\Desktop\\AD_fich_prueba1.txt");
+        FileReader fr1 = new FileReader("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\AD_fich_prueba1.txt");
         int valor = fr1.read();
         //el -1 indica hasta final de fichero
         while (valor != -1) {
@@ -52,8 +55,6 @@ public class fich_clase1_FileWriter {
 
         //Hay que cerrar siempre el fichero por precaución
         fw1.close();
-
-
     }
 
 }
