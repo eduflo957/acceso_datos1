@@ -9,24 +9,41 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+//1 posibilidad: Hacer 2 arrays y comparar así
+//AEIOUaeiou
+//EIOUAeioua
+
+//2 posibilidad: hacer una cadena y utilizar index
+//ordenada = "AEIOUaeiou"
+//codificada = "EIOUAeioua"
+// if "AEIOUaeiou".index(car) = -1 //(es decir, no lo encuentra)
+        //write(fichero) (es decir, no es vocal, escribo
+// else
+        //ver la posicion
+        //write (fichero.index(posicion))
+
 public class pruebaFicheros {
     public static void main(String[] args) throws IOException {
         //Clase
-        //FileReader fr1 = new FileReader("C:\\Users\\Edu guapo\\Desktop\\quijote.txt");
+        FileReader fr1 = new FileReader("C:\\Users\\AlumnoM\\Desktop\\quijote.txt");
         //Casa
-        FileReader fr1 = new FileReader("C:\\Users\\Edu guapo\\Desktop\\quijote.txt");
+        //FileReader fr1 = new FileReader("C:\\Users\\Edu guapo\\Desktop\\quijote.txt");
         int valor = fr1.read();
 
-        File f1 = new File("C:\\Users\\Edu guapo\\Desktop\\quijoteCifrado.txt");
+        //Clase
+        File f1 = new File("C:\\Users\\AlumnoM\\Desktop\\quijoteCifrado.txt");
+        //Casa
+        //File f1 = new File("C:\\Users\\Edu guapo\\Desktop\\quijoteCifrado.txt");
         FileWriter fw1 = new FileWriter(f1, false);
         while (valor != -1) {
             //System.out.print((char) valor);
-            valor = fr1.read();
             fw1.write(cifrar((char) valor));
+            valor = fr1.read();
         }
 
         char nueva = cifrar('a');
         //System.out.println(nueva);
+        fw1.close();
     }
 
 
