@@ -1,3 +1,4 @@
+/*
 import java.io.*;
 //TODO para escirbir/leer un fichero binario, va junto al doc: fich_clase6_ej1_profe
 //Esta vez leemos objetos
@@ -38,3 +39,4 @@ public class fich_clase7_Fichero {
         fI.close();
     }
 }
+*/

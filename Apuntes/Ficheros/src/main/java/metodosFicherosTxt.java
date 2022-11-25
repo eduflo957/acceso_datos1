@@ -3,7 +3,7 @@ import java.io.*;
 public class metodosFicherosTxt {
     public static void main(String[] args) throws IOException {
         String texto = "En un lugar de la mancha";
-        escribirFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt", texto, true);
+        escribirFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt", texto, false);
         char[] frase = leerFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt");
         System.out.println(frase);
     }
