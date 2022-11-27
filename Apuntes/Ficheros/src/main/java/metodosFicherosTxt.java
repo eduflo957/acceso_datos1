@@ -2,10 +2,16 @@ import java.io.*;
 
 public class metodosFicherosTxt {
     public static void main(String[] args) throws IOException {
-        String texto = "En un lugar de la mancha";
+        String texto = "En un lugar de la mancha cuyo nombre no quiero acordarme";
+        System.out.println(texto);
+        String oldPalabra = "lugar";
+        String newPalabra = "bbbbbbbbbbb";
         escribirFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt", texto, false);
-        char[] frase = leerFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt");
-        System.out.println(frase);
+        //char[] leerChar = leerFicheroChar("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt");
+        String leerString = leerFicheroString("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\writeReadChar.txt");
+        String newTexto = cambiarPalabra(leerString, oldPalabra, newPalabra);
+        System.out.println(newTexto);
+
     }
 
     public static void escribirFicheroChar(String ruta, String texto, boolean machaque) throws IOException {
@@ -41,5 +47,31 @@ public class metodosFicherosTxt {
         return arrayString;
     }
 
+    public static String leerFicheroString(String ruta) throws IOException {
+        BufferedReader bR = new BufferedReader(new InputStreamReader(new FileInputStream(ruta), "ISO-8859-1"));
+        String linea = " ";
+        String resultado = " ";
+        linea = bR.readLine();
+        while (linea != null) {
+            resultado += (linea + " ");
+            linea = bR.readLine();
+        }
+        bR.close();
+        return resultado;
+    }
 
+    public static String cambiarPalabra(String texto, String oldPalabra, String newPalabra) {
+        String[] textoSplit = texto.split(" ");
+        for (int i = 0; i < textoSplit.length; i++) {
+            if (textoSplit[i].equals(oldPalabra)) {
+                textoSplit[i] = newPalabra;
+            }
+        }
+
+        String newTexto = " ";
+        for (int i = 0; i < textoSplit.length; i++) {
+            newTexto += (textoSplit[i] + " ");
+        }
+        return newTexto;
+    }
 }

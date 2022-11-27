@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="FICHERO LECTURA DAT creado">
-      <change afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosEjercicioAmpliacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/pruebas.java" afterDir="false" />
+    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="pruebas fallidas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosFicherosBinRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosFicherosBinRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosEjercicioAmpliacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosFicherosTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosFicherosTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/pruebas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669405497759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pruebas fallidas">
+      <created>1669468465996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468465996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +104,7 @@
     <MESSAGE value="comiteo casa, poco avance" />
     <MESSAGE value="casa, ficheros ordenado, falta ordenar XML." />
     <MESSAGE value="FICHERO LECTURA DAT creado" />
-    <option name="LAST_COMMIT_MESSAGE" value="FICHERO LECTURA DAT creado" />
+    <MESSAGE value="pruebas fallidas" />
+    <option name="LAST_COMMIT_MESSAGE" value="pruebas fallidas" />
   </component>
 </project>
