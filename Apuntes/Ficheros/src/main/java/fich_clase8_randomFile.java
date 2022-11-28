@@ -16,7 +16,7 @@ public class fich_clase8_randomFile {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         File f = new File("C:\\Users\\AlumnoM\\Desktop\\fich_clase8_fichRandom.bin");
 
-        //Lectura escritura
+        //Lectura escritura -> rw
         RandomAccessFile fA = new RandomAccessFile(f, "rw");
         fA.writeUTF("aaaaa" + 3000);
         fA.writeInt(1);
