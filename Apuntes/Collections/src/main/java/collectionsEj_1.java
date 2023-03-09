@@ -1,8 +1,9 @@
+/*
 import java.util.ArrayList;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-public class collections_clase2 {
+public class collectionsEj_1 {
 
     public static void main(String[] args) {
         ArrayList<Integer> listaNum = new ArrayList<Integer>();
@@ -26,7 +27,8 @@ public class collections_clase2 {
 
     }
 
-    /*
+    */
+/*
      * /////////////Probar en casa, la solución está más abajo public static void
      * lecturaPantalla (ArrayList<Integer> listaNum, char forma) { Iterator<Integer>
      * it = listaNum.iterator(); if (forma=='a') { while (it.hasNext()) {
@@ -34,7 +36,8 @@ public class collections_clase2 {
      * System.out.println(it.next()); }
      *
      * } }
-     */
+     *//*
+
 
     public static void imprimirCol(ArrayList<Integer> al, char op) { // revisar, porque me tiene que imprimir de
         // izquierda a derecha y viceversa
@@ -54,3 +57,4 @@ public class collections_clase2 {
 
     }
 }
+*/

@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="metodo leer String y Cambiar palabra hecho">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/main/java/org/example/pruebaFicheroTomas.java" afterDir="false" />
+    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="no puedo mas">
+      <change afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections4_LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/org/example/apuntesCollection.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/maps1_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/maps2_TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/ScannerEdu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/pruebasHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichEmpleados.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase7_Fichero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase7_Fichero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase8_randomFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase8_randomFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/metodosFicherosBinRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/pruebas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/Clase07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/X_Clase07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/hashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/X_hashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/hashMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/X_hashMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/linkedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/X_linkedHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/P1_clase_27_09_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collectionsEj_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_arrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections1_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_clase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections2_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_clase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collectionsEj_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_clase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections3_LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_clase4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_clase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_clase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_linkedHashSet_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Collections/src/main/java/collections_p1_persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +61,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Edu guapo/Desktop/afueraEstudios/programacion_multimedia/practicas_prog_multi&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669574375962</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="preparacion antes del examen">
+      <created>1669677845999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669677845999</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,11 +140,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="comiteo casa, poco avance" />
     <MESSAGE value="casa, ficheros ordenado, falta ordenar XML." />
     <MESSAGE value="FICHERO LECTURA DAT creado" />
     <MESSAGE value="pruebas fallidas" />
     <MESSAGE value="metodo leer String y Cambiar palabra hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo leer String y Cambiar palabra hecho" />
+    <MESSAGE value="preparacion antes del examen" />
+    <MESSAGE value="no puedo mas" />
+    <option name="LAST_COMMIT_MESSAGE" value="no puedo mas" />
   </component>
 </project>

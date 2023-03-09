@@ -1,27 +1,33 @@
-import java.util.Collection;
 import java.util.HashSet;
-import java.util.Iterator;
 
-public class collections_clase1 {
+public class collections2_HashSet {
 
     public static void main(String[] args) {
-
+        //HashSet es una lista que te quita los datos repetidos
+        //No garantiza que los datos se mantengan ordenados
         HashSet<Integer> hS = new HashSet<Integer>();
         hS.add(1);
         hS.add(1);
         hS.add(3);
-
-        imprimirCol(hS);
+        System.out.println(hS);
+        System.out.println("Probando métodos: "+hS.clone());
+        //Si contiene algún dato: .contains(dato)
 
         HashSet<String> hSString = new HashSet<String>();
         hSString.add("hola");
         hSString.add("hola");
         hSString.add("adios");
+        System.out.println(hSString);
 
-        imprimirColString(hSString);
+        //Para sacar elemento por elemento mejor un for each de este tipo:
+        System.out.println("Vamos a probar bucles: ");
+        for (String x: hSString) {
+            System.out.println(x);
+        }
 
     }
 
+    /*********************** MÉTODOS QUE NO SIRVEN PARA UNA MIERDA ************************
     //Imprimir sin numeros duplicados
     public static void imprimirCol(Collection<Integer> col) { // revisar, porque me tiene que imprimir de
         if (col.isEmpty()) {
@@ -30,7 +36,8 @@ public class collections_clase1 {
             Iterator<Integer> li = col.iterator();
             do {
                 System.out.println(li.next());
-            } while (li.hasNext());
+            } while (li.hasNext()); //mientras haya hash porque: li.hasNext es true,
+            // si es false es que no hay más hash
 
         }
     }
@@ -46,5 +53,5 @@ public class collections_clase1 {
             } while (li.hasNext());
 
         }
-    }
+    } */
 }

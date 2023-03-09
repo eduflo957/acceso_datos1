@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Empleados><empleado><id>1</id><apellidos orden="primero"><apellido1>PÃ©rez</apellido1><apellido2>Sanz</apellido2></apellidos><dep>150</dep></empleado><empleado><id>2</id><apellidos orden="segundo"><apellido1>Flores</apellido1><apellido2>LÃ³pez</apellido2></apellidos><dep>300</dep></empleado></Empleados>

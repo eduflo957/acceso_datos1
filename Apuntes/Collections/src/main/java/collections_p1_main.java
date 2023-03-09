@@ -1,12 +1,5 @@
-/*public class collections_p1_main {
-/**
- *
-
-package colecciones_paquete1;
-
-import java.util.HashSet;
-
-
+/*
+public class collections_p1_main {
     public class colecciones_p1_practica1_main {
 
         public static void main(String[] args) {
@@ -31,5 +24,4 @@ import java.util.HashSet;
     }
 
 
-}
-*/
+}*/

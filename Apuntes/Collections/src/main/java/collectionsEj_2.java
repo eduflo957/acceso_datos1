@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class P1_clase_27_09_22 {
+public class collectionsEj_2 {
 
 /*Pido animales por pantalla, valen repetidos, hasta que el usuario introduce FIN o fin
  * Animal
