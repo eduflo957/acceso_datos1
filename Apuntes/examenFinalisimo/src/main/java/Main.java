@@ -1,5 +1,3 @@
-package org.example;
-
 import java.io.*;
 import java.util.*;
 
@@ -7,7 +5,11 @@ public class Main {
     public static <excepcion extends Throwable, exception extends Throwable> void main(String[] args) throws IOException {
         System.out.println("Empieza programa");
 
-        File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\fichFinal1.bin");
+        //Casa
+        //File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\fichFinal1.bin");
+
+        //Clase
+        File f = new File("C:\\Users\\AlumnoM\\Desktop\\carpetaFicheros\\fichFinal1.bin");
 
         //Lectura escritura -> rw
         RandomAccessFile fichWork = new RandomAccessFile(f, "rw");
@@ -75,6 +77,8 @@ public class Main {
         for (Map.Entry impMapa : mapaOrdenado.entrySet()) {
             System.out.println(impMapa.getValue()+ ": " +impMapa.getKey());
         }*/
+        System.out.println("Pruebaaaaaaaaaaaaaaaaaaas");
+        System.out.println(arrayNombres.size());
 
 
 

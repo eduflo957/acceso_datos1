@@ -22,9 +22,6 @@ public class pruebasHash {
             listaValor.add(Integer.valueOf(x.getValue().toString()));
         }
 
-
-
-
         for (Map.Entry x : hm.entrySet()) {
             System.out.println(x.getKey());
             System.out.println(x.getValue());

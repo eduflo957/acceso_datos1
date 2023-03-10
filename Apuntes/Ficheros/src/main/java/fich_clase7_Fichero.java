@@ -5,9 +5,9 @@ import java.io.*;
 public class fich_clase7_Fichero {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         //Clase
-        //File f = new File("C:\\Users\\AlumnoM\\Desktop\\doc_objUs_clase7.bin");
+        File f = new File("C:\\Users\\AlumnoM\\Desktop\\doc_objUs_clase7.bin");
         //Casa
-        File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\doc_objUs_clase7.bin");
+        //File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\doc_objUs_clase7.bin");
 
         ObjectOutputStream fO = null;
 
