@@ -6,10 +6,10 @@ public class Main {
         System.out.println("Empieza programa");
 
         //Casa
-        //File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\fichFinal1.bin");
+        File f = new File("C:\\Users\\Edu guapo\\Desktop\\carpetaFicheros\\fichFinal1.bin");
 
         //Clase
-        File f = new File("C:\\Users\\AlumnoM\\Desktop\\carpetaFicheros\\fichFinal1.bin");
+        //File f = new File("C:\\Users\\AlumnoM\\Desktop\\carpetaFicheros\\fichFinal1.bin");
 
         //Lectura escritura -> rw
         RandomAccessFile fichWork = new RandomAccessFile(f, "rw");
@@ -78,7 +78,7 @@ public class Main {
             System.out.println(impMapa.getValue()+ ": " +impMapa.getKey());
         }*/
         System.out.println("Pruebaaaaaaaaaaaaaaaaaaas");
-        System.out.println(arrayNombres.size());
+        System.out.println(arrayNombres);
 
 
 
