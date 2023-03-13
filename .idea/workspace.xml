@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="no puedo mas">
+    <list default="true" id="82997005-3be5-48f9-bc95-3686f6e6605a" name="Changes" comment="casa kate">
+      <change afterPath="$PROJECT_DIR$/Apuntes/Ficheros/src/main/java/fich_clase8_randomFile_rares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/maps2_TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/Maps/src/main/java/maps2_TreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/repaso1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/examenFinalisimo/src/main/java/repaso1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678399315831</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="casa kate">
+      <created>1678467467864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467467864</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +142,7 @@
     <MESSAGE value="metodo leer String y Cambiar palabra hecho" />
     <MESSAGE value="preparacion antes del examen" />
     <MESSAGE value="no puedo mas" />
-    <option name="LAST_COMMIT_MESSAGE" value="no puedo mas" />
+    <MESSAGE value="casa kate" />
+    <option name="LAST_COMMIT_MESSAGE" value="casa kate" />
   </component>
 </project>
